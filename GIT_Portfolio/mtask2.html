@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midterm Task 2</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at center, #1a1a1a, #0d0d0d);
+      color: #fff;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      width: 80%;
+      margin: 30px auto;
+      padding: 15px;
+      border-radius: 15px;
+      background: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      width: 60%;
+      margin: auto;
+    }
+
+    /* SECTION BOX */
+    .box {
+      background: #111;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.05);
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    /* IMAGE */
+    .preview-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    /* DOWNLOAD BUTTON */
+    .download-btn {
+      display: block;
+      width: fit-content;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      border-radius: 10px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .download-btn:hover {
+      background: #444;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div><strong>Portfolio</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="index.html#projects">Projects</a>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="container">
+
+    <!-- TITLE + DESCRIPTION -->
+    <div class="box">
+      <h1>Midterm Task 2</h1>
+      <h3 style="text-align:center;">Data Prep and Modeling with Power Query</h3>
+
+      <p>
+        This task focuses on cleaning and preparing raw datasets using Microsoft Excel. It involves identifying and handling missing values, removing duplicates, correcting inconsistencies, and organizing the data into a structured format. The goal is to ensure that the dataset is accurate, consistent, and ready for analysis.
+      </p>
+    </div>
+
+    <!-- DOWNLOAD -->
+<div class="box">
+  <h2>Data Model</h2>
+
+  <a href="Midterm Task 2. Data Analysis using Pivot Table.xlsx" download class="download-btn">
+    Download File
+  </a>
+</div>
+
+  </div>
+
+</body>
+</html>

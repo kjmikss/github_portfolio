@@ -1,0 +1,150 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY (MATCHES YOUR PROJECT PAGE) */
+body {
+  background: radial-gradient(circle at center, #1a1a1a, #0d0d0d);
+  color: #fff;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  padding: 40px 20px 20px;
+}
+
+/* PROFILE IMAGE */
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #4caf50;
+}
+
+/* NAME */
+header h1 {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+/* SUBTITLE */
+header h2 {
+  font-size: 1.2em;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px 25px;
+
+  background: #111;
+  color: #fff;
+
+  border-radius: 50px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #222;
+  transform: translateY(-2px);
+}
+
+/* SECTION */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* CARD (MATCHES PROJECT BOX STYLE) */
+.card {
+  background: #111;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.05);
+  text-align: left;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* CARD IMAGE */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* BUTTON (PROJECT BUTTON STYLE) */
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #444;
+}
+
+/* ABOUT IMAGE */
+.about-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+
+/* ABOUT TEXT */
+#about p {
+  text-align: justify;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* EDUCATION */
+.edu-item {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: justify;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+  margin-top: 40px;
+  border-top: 1px solid #222;
+}
